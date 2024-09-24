@@ -22,6 +22,10 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 
 //Aseel routes start
+use App\Http\Controllers\AdminController;
+
+Route::get('/admin/users', [AdminController::class, 'index']);
+// url : http://127.0.0.1:8000/api/admin/users
 
 //Aseel routes ends
 
