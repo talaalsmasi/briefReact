@@ -17,3 +17,30 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+
+
+
+//Aseel routes start
+
+//Aseel routes ends
+
+//Amal routes start
+
+//Amal routes ends
+
+//Fajer routes start
+
+//Fajer routes ends
+
+//Tala routes start
+
+//Tala routes ends
+
+//Dania routes start
+
+//Dania routes ends
+
+//Dalia routes start
+
+//Dalia routes ends
