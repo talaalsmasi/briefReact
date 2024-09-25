@@ -18,22 +18,20 @@ const FoodCategoryV3 = () => {
                     <div className="food-menu-three-two-items">
                         <div className="row">
                             <div className="col-lg-12 text-center">
-
                                 <div className="nav nav-tabs food-menu-nav style-three" id="nav-tab" role="tablist">
                                     <button className="nav-link active" id="nav-id-1" data-bs-toggle="tab" data-bs-target="#tab1" type="button" role="tab" aria-controls="tab1" aria-selected="true">
-                                        Main Dishes
+                                        Keto
                                     </button>
                                     <button className="nav-link" id="nav-id-2" data-bs-toggle="tab" data-bs-target="#tab2" type="button" role="tab" aria-controls="tab2" aria-selected="false">
-                                        Desserts
+                                        Vegan
                                     </button>
                                     <button className="nav-link" id="nav-id-3" data-bs-toggle="tab" data-bs-target="#tab3" type="button" role="tab" aria-controls="tab3" aria-selected="false">
-                                        Sea Food
+                                        Healthy
                                     </button>
                                     <button className="nav-link" id="nav-id-4" data-bs-toggle="tab" data-bs-target="#tab4" type="button" role="tab" aria-controls="tab4" aria-selected="false">
-                                        Beverage
+                                        Diabetes
                                     </button>
                                 </div>
-
                             </div>
                             <div className="col-lg-12">
                                 <div className="tab-content food-style-two-content" id="nav-tabContent">
