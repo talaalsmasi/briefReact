@@ -24,7 +24,8 @@ class SubscriptionFactory extends Factory
             'meal_class_id' => $this->faker->numberBetween(1, 9),
             'start_date' => $this->faker->date(),
             'end_date' => $this->faker->date(),
-            'status' => $this->faker->randomElement(['active', 'cancelled']),
+
+            'status' => $this->faker->randomElement(['active','Finished','Approved', 'Pending']),
             'delivery_info' => $this->faker->address,
         ];
     }

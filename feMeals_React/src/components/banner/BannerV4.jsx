@@ -4,7 +4,8 @@ import PopupVideo from '../video/PopupVideo';
 const BannerV4 = () => {
     return (
         <>
-            <div className="banner-style-four-area text-light text-center bg-cover" style={{ backgroundImage: 'url(assets/img/banner/14.jpg)' }}>
+            <div className="banner-style-four-area text-light text-center bg-cover" style={{ backgroundImage: "url(/img/background1.jpg)" }}
+            >
                 <div className="banner-style-four-content shadow dark">
                     <div className="container">
                         <div className="row">

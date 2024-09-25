@@ -19,6 +19,7 @@ return new class extends Migration
             $table->date('end_date');
             $table->string('status'); // active, cancelled, etc.
             $table->string('delivery_info');
+
             $table->timestamps();
         });
     }
