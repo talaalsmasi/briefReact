@@ -20,7 +20,6 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 use App\Http\Controllers\FoodMenuController;
 
-Route::get('/food-menu-v4', [FoodMenuController::class, 'getFoodMenu']);
 
 
 
@@ -38,6 +37,12 @@ Route::post('/admin/subscriptions/{id}/status', [AdminController::class, 'update
 //Aseel routes ends
 
 //Amal routes start
+
+use App\Http\Controllers\FoodMenuController;
+Route::get('/food-menu', [FoodMenuController::class, 'getMeals']);
+Route::get('/food-menu-v4', [FoodMenuController::class, 'getFoodMenu']);
+
+
 
 //Amal routes ends
 
