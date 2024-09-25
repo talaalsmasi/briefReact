@@ -17,9 +17,7 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
-use App\Http\Controllers\FoodMenuController;
 
-Route::get('/food-menu-v4', [FoodMenuController::class, 'getFoodMenu']);
 
 
 
@@ -33,6 +31,12 @@ Route::get('/admin/users', [AdminController::class, 'index']);
 //Aseel routes ends
 
 //Amal routes start
+
+use App\Http\Controllers\FoodMenuController;
+Route::get('/food-menu', [FoodMenuController::class, 'getMeals']);
+Route::get('/food-menu-v4', [FoodMenuController::class, 'getFoodMenu']);
+
+
 
 //Amal routes ends
 
