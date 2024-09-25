@@ -7170,7 +7170,7 @@
      position: absolute;
      left: 0;
      top: -15px;
-     font-size: 160px;
+     font-size: 150px;
      text-transform: uppercase;
      font-weight: 900;
      line-height: 1;
@@ -9595,7 +9595,7 @@
      }
 
      .opening-hour-items .text-fixed {
-         font-size: 120px;
+         font-size: 100px;
      }
 
      .opening-hours-info {

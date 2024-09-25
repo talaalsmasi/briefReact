@@ -5,11 +5,6 @@ import Home2 from './pages/homePages/Home2';
 import Home3 from './pages/homePages/Home3';
 import Home4 from './pages/homePages/Home4';
 import Home5 from './pages/homePages/Home5';
-import Home1Dark from './pages/homePages/Home1Dark';
-import Home2Dark from './pages/homePages/Home2Dark';
-import Home3Dark from './pages/homePages/Home3Dark';
-import Home4Dark from './pages/homePages/Home4Dark';
-import Home5Dark from './pages/homePages/Home5Dark';
 import AboutUsPage from './pages/innerPages/AboutUsPage';
 import ChefPage from './pages/innerPages/ChefPage';
 import ChefDetails from './pages/innerPages/ChefDetails';
@@ -57,11 +52,6 @@ const Routers = () => {
                 <Route path='/home-4' element={<Home4 />}></Route>
                 <Route path='/home-5' element={<Home5 />}></Route>
 
-                <Route path='/home-dark' element={<Home1Dark />}></Route>
-                <Route path='/home-2-dark' element={<Home2Dark />}></Route>
-                <Route path='/home-3-dark' element={<Home3Dark />}></Route>
-                <Route path='/home-4-dark' element={<Home4Dark />}></Route>
-                <Route path='/home-5-dark' element={<Home5Dark />}></Route>
 
                 <Route path='/about-us' element={<AboutUsPage />}></Route>
                 <Route path='/chef' element={<ChefPage />}></Route>
