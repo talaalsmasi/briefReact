@@ -127,3 +127,133 @@
 #38 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\Users\\\\Orange...')
 #39 {main}
 "} 
+[2024-09-25 09:37:19] local.ERROR: Command "migrate:fresh\" is not defined.
+
+Did you mean one of these?
+    migrate
+    migrate:fresh
+    migrate:install
+    migrate:refresh
+    migrate:reset
+    migrate:rollback
+    migrate:status {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"migrate:fresh\\\" is not defined.
+
+Did you mean one of these?
+    migrate
+    migrate:fresh
+    migrate:install
+    migrate:refresh
+    migrate:reset
+    migrate:rollback
+    migrate:status at C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\symfony\\console\\Application.php:737)
+[stacktrace]
+#0 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\symfony\\console\\Application.php(266): Symfony\\Component\\Console\\Application->find('migrate:fresh\\\\')
+#1 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\symfony\\console\\Application.php(175): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(201): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 {main}
+"} 
+[2024-09-25 09:39:46] local.ERROR: SQLSTATE[HY000]: General error: 1364 Field 'price' doesn't have a default value (Connection: mysql, SQL: insert into `meal_classes` (`name`, `meal_type_id`, `updated_at`, `created_at`) values (Basic, 1, 2024-09-25 09:39:46, 2024-09-25 09:39:46)) {"exception":"[object] (Illuminate\\Database\\QueryException(code: HY000): SQLSTATE[HY000]: General error: 1364 Field 'price' doesn't have a default value (Connection: mysql, SQL: insert into `meal_classes` (`name`, `meal_type_id`, `updated_at`, `created_at`) values (Basic, 1, 2024-09-25 09:39:46, 2024-09-25 09:39:46)) at C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:829)
+[stacktrace]
+#0 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(783): Illuminate\\Database\\Connection->runQueryCallback('insert into `me...', Array, Object(Closure))
+#1 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\MySqlConnection.php(34): Illuminate\\Database\\Connection->run('insert into `me...', Array, Object(Closure))
+#2 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Processors\\MySqlProcessor.php(35): Illuminate\\Database\\MySqlConnection->insert('insert into `me...', Array, 'id')
+#3 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(3549): Illuminate\\Database\\Query\\Processors\\MySqlProcessor->processInsertGetId(Object(Illuminate\\Database\\Query\\Builder), 'insert into `me...', Array, 'id')
+#4 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(1982): Illuminate\\Database\\Query\\Builder->insertGetId(Array, 'id')
+#5 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(1334): Illuminate\\Database\\Eloquent\\Builder->__call('insertGetId', Array)
+#6 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(1299): Illuminate\\Database\\Eloquent\\Model->insertAndSetId(Object(Illuminate\\Database\\Eloquent\\Builder), Array)
+#7 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(1138): Illuminate\\Database\\Eloquent\\Model->performInsert(Object(Illuminate\\Database\\Eloquent\\Builder))
+#8 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(1025): Illuminate\\Database\\Eloquent\\Model->save()
+#9 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\helpers.php(307): Illuminate\\Database\\Eloquent\\Builder->Illuminate\\Database\\Eloquent\\{closure}(Object(App\\Models\\MealClass))
+#10 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(1024): tap(Object(App\\Models\\MealClass), Object(Closure))
+#11 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Traits\\ForwardsCalls.php(23): Illuminate\\Database\\Eloquent\\Builder->create(Array)
+#12 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(2335): Illuminate\\Database\\Eloquent\\Model->forwardCallTo(Object(Illuminate\\Database\\Eloquent\\Builder), 'create', Array)
+#13 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(2347): Illuminate\\Database\\Eloquent\\Model->__call('create', Array)
+#14 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\database\\seeders\\MealClassSeeder.php(16): Illuminate\\Database\\Eloquent\\Model::__callStatic('create', Array)
+#15 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Database\\Seeders\\MealClassSeeder->run()
+#16 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#17 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#18 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#19 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(662): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#20 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(184): Illuminate\\Container\\Container->call(Array, Array)
+#21 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(193): Illuminate\\Database\\Seeder->Illuminate\\Database\\{closure}()
+#22 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(61): Illuminate\\Database\\Seeder->__invoke(Array)
+#23 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\database\\seeders\\DatabaseSeeder.php(15): Illuminate\\Database\\Seeder->call('Database\\\\Seeder...')
+#24 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Database\\Seeders\\DatabaseSeeder->run()
+#25 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#26 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#27 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#28 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(662): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#29 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(184): Illuminate\\Container\\Container->call(Array, Array)
+#30 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(193): Illuminate\\Database\\Seeder->Illuminate\\Database\\{closure}()
+#31 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(70): Illuminate\\Database\\Seeder->__invoke()
+#32 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Concerns\\GuardsAttributes.php(155): Illuminate\\Database\\Console\\Seeds\\SeedCommand->Illuminate\\Database\\Console\\Seeds\\{closure}()
+#33 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(69): Illuminate\\Database\\Eloquent\\Model::unguarded(Object(Closure))
+#34 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Database\\Console\\Seeds\\SeedCommand->handle()
+#35 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#36 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#37 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#38 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(662): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#39 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(211): Illuminate\\Container\\Container->call(Array)
+#40 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\symfony\\console\\Command\\Command.php(326): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#41 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(180): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#42 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\symfony\\console\\Application.php(1096): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#43 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\symfony\\console\\Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Seeds\\SeedCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#44 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\symfony\\console\\Application.php(175): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#45 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(201): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#46 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#47 {main}
+
+[previous exception] [object] (PDOException(code: HY000): SQLSTATE[HY000]: General error: 1364 Field 'price' doesn't have a default value at C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\MySqlConnection.php:45)
+[stacktrace]
+#0 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\MySqlConnection.php(45): PDOStatement->execute()
+#1 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(816): Illuminate\\Database\\MySqlConnection->Illuminate\\Database\\{closure}('insert into `me...', Array)
+#2 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(783): Illuminate\\Database\\Connection->runQueryCallback('insert into `me...', Array, Object(Closure))
+#3 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\MySqlConnection.php(34): Illuminate\\Database\\Connection->run('insert into `me...', Array, Object(Closure))
+#4 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Processors\\MySqlProcessor.php(35): Illuminate\\Database\\MySqlConnection->insert('insert into `me...', Array, 'id')
+#5 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(3549): Illuminate\\Database\\Query\\Processors\\MySqlProcessor->processInsertGetId(Object(Illuminate\\Database\\Query\\Builder), 'insert into `me...', Array, 'id')
+#6 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(1982): Illuminate\\Database\\Query\\Builder->insertGetId(Array, 'id')
+#7 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(1334): Illuminate\\Database\\Eloquent\\Builder->__call('insertGetId', Array)
+#8 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(1299): Illuminate\\Database\\Eloquent\\Model->insertAndSetId(Object(Illuminate\\Database\\Eloquent\\Builder), Array)
+#9 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(1138): Illuminate\\Database\\Eloquent\\Model->performInsert(Object(Illuminate\\Database\\Eloquent\\Builder))
+#10 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(1025): Illuminate\\Database\\Eloquent\\Model->save()
+#11 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\helpers.php(307): Illuminate\\Database\\Eloquent\\Builder->Illuminate\\Database\\Eloquent\\{closure}(Object(App\\Models\\MealClass))
+#12 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(1024): tap(Object(App\\Models\\MealClass), Object(Closure))
+#13 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Traits\\ForwardsCalls.php(23): Illuminate\\Database\\Eloquent\\Builder->create(Array)
+#14 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(2335): Illuminate\\Database\\Eloquent\\Model->forwardCallTo(Object(Illuminate\\Database\\Eloquent\\Builder), 'create', Array)
+#15 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(2347): Illuminate\\Database\\Eloquent\\Model->__call('create', Array)
+#16 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\database\\seeders\\MealClassSeeder.php(16): Illuminate\\Database\\Eloquent\\Model::__callStatic('create', Array)
+#17 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Database\\Seeders\\MealClassSeeder->run()
+#18 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#19 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#20 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#21 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(662): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#22 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(184): Illuminate\\Container\\Container->call(Array, Array)
+#23 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(193): Illuminate\\Database\\Seeder->Illuminate\\Database\\{closure}()
+#24 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(61): Illuminate\\Database\\Seeder->__invoke(Array)
+#25 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\database\\seeders\\DatabaseSeeder.php(15): Illuminate\\Database\\Seeder->call('Database\\\\Seeder...')
+#26 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Database\\Seeders\\DatabaseSeeder->run()
+#27 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#28 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#29 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#30 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(662): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#31 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(184): Illuminate\\Container\\Container->call(Array, Array)
+#32 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(193): Illuminate\\Database\\Seeder->Illuminate\\Database\\{closure}()
+#33 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(70): Illuminate\\Database\\Seeder->__invoke()
+#34 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Concerns\\GuardsAttributes.php(155): Illuminate\\Database\\Console\\Seeds\\SeedCommand->Illuminate\\Database\\Console\\Seeds\\{closure}()
+#35 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(69): Illuminate\\Database\\Eloquent\\Model::unguarded(Object(Closure))
+#36 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Database\\Console\\Seeds\\SeedCommand->handle()
+#37 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#38 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#39 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#40 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(662): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#41 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(211): Illuminate\\Container\\Container->call(Array)
+#42 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\symfony\\console\\Command\\Command.php(326): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#43 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(180): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#44 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\symfony\\console\\Application.php(1096): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#45 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\symfony\\console\\Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Seeds\\SeedCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#46 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\symfony\\console\\Application.php(175): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#47 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(201): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#48 C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#49 {main}
+"} 
