@@ -14,7 +14,7 @@ class MealClass extends Model
     // Relationships
     public function mealType()
     {
-        return $this->belongsTo(MealType::class);
+        return $this->belongsTo(MealType::class, 'meal_type_id');
     }
 
     public function subscriptions()
