@@ -21,7 +21,7 @@ class MealFactory extends Factory
     {
         return [
             'name' => $this->faker->word,
-            'type' => $this->faker->randomElement(['Breakfast', 'Lunch', 'Dinner', 'Snack']),
+            'meal_time' => $this->faker->randomElement(['Breakfast', 'Lunch', 'Dinner', 'Snack']),
             'meal_type_id' =>  $this->faker->numberBetween(1, 4),
             'meal_class_id' => $this->faker->numberBetween(1, 9),
         ];
