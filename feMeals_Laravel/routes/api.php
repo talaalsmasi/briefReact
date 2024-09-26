@@ -1,4 +1,5 @@
 <?php
+use App\Http\Controllers\UserDashboardController;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -34,6 +35,7 @@ Route::get('/admin/users', [AdminController::class, 'index']);
 //Amal routes ends
 
 //Fajer routes start
+Route::get('/user', [UserDashboardController::class, 'getUserData']);
 
 //Fajer routes ends
 
