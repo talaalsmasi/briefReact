@@ -1,7 +1,20 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useState } from "react";
+
+import { Link, useLocation } from "react-router-dom";
 
 const Sidebar = () => {
+  // Get the current location
+  const location = useLocation();
+
+  // Check if a path is active
+  const isActive = (path) => location.pathname === path;
+
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+
+  // Function to toggle the dropdown state
+  const toggleDropdown = () => {
+    setIsDropdownOpen(!isDropdownOpen);
+  };
   return (
     <aside
       id="layout-menu"
@@ -102,7 +115,7 @@ const Sidebar = () => {
 
       <ul className="menu-inner py-1">
         {/* Dashboards */}
-        <li className="menu-item active open">
+        <li className={`menu-item ${isActive("/") ? "active" : ""}`}>
           <Link to="/" className="menu-link menu-toggle">
             <i className="menu-icon tf-icons bx bx-home-smile"></i>
             <div className="text-truncate" data-i18n="Dashboards">
@@ -112,7 +125,9 @@ const Sidebar = () => {
         </li>
 
         {/* Subscription Dashboard */}
-        <li className="menu-item">
+        <li
+          className={`menu-item ${isActive("/subscription") ? "active" : ""}`}
+        >
           <Link to="/subscription" className="menu-link menu-toggle">
             <i className="menu-icon tf-icons bx bx-layout"></i>
             <div className="text-truncate" data-i18n="Layouts">
@@ -121,30 +136,56 @@ const Sidebar = () => {
           </Link>
         </li>
 
-        {/* Front Pages */}
-        <li className="menu-item">
-          <a href="javascript:void(0);" className="menu-link menu-toggle">
-            <i className="menu-icon tf-icons bx bx-store"></i>
-            <div className="text-truncate" data-i18n="Front Pages">
-              Front Pages
+        {/* user_center Pages */}
+        <li className={`menu-item ${isActive("/user_center") ? "active" : ""}`}>
+          <Link to="/user_center" className="menu-link menu-toggle">
+            <i className="menu-icon tf-icons bx bx-layout"></i>
+            <div className="text-truncate" data-i18n="Layouts">
+              User Center
             </div>
-            <div className="badge rounded-pill bg-label-primary text-uppercase fs-tiny ms-auto">
-              Pro
+          </Link>
+        </li>
+
+        {/* Contracts Center Dropdown */}
+        <li className={`menu-item ${isDropdownOpen ? "active open" : ""}`}>
+          <a
+            href="javascript:void(0);"
+            className="menu-link menu-toggle"
+            onClick={toggleDropdown} // Handle dropdown toggle
+          >
+            <i className="menu-icon tf-icons bx bx-layout"></i>
+            <div className="text-truncate" data-i18n="Contracts">
+              Contracts Center
             </div>
           </a>
-          <ul className="menu-sub">
+
+          <ul className={`menu-sub ${isDropdownOpen ? "show" : ""}`}>
+            {/* Classes */}
             <li className="menu-item">
-              <a
-                href="https://demos.themeselection.com/sneat-bootstrap-html-admin-template/html/front-pages/landing-page.html"
-                className="menu-link"
-                target="_blank"
-              >
-                <div className="text-truncate" data-i18n="Landing">
-                  Landing
+              <Link to="/admin/meal_classes" className="menu-link">
+                <div className="text-truncate" data-i18n="Classes">
+                  Classes
                 </div>
-              </a>
+              </Link>
             </li>
-            {/* Additional menu items */}
+
+            {/* Types */}
+            <li className="menu-item">
+              <Link to="/admin/meal_types" className="menu-link">
+                <div className="text-truncate" data-i18n="Types">
+                  Types
+                </div>
+              </Link>
+            </li>
+
+            {/* Meals */}
+            <li className="menu-item">
+              <Link to="/admin/meals" className="menu-link">
+                <div className="text-truncate" data-i18n="Meals">
+                  Meals
+                </div>
+              </Link>
+            </li>
           </ul>
         </li>
 

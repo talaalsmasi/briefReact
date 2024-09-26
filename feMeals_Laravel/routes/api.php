@@ -19,7 +19,7 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-// use App\Http\Controllers\FoodMenuController;
+use App\Http\Controllers\FoodMenuController;
 
 
 
@@ -33,6 +33,21 @@ Route::get('/admin/dashboard', [AdminController::class, 'dashboard']);
 Route::get('/admin/subscriptions', [AdminController::class, 'getSubscriptions']);
 Route::post('/admin/subscriptions/{id}/status', [AdminController::class, 'updateSubscriptionStatus']);
 
+Route::get('/users', [AdminController::class, 'getUsers']);
+Route::put('/admin/users/{id}', [AdminController::class, 'updateUser']);
+Route::delete('/admin/users/{id}', [AdminController::class, 'deleteUser']);
+
+Route::get('/admin/meal-classes', [AdminController::class, 'getMealClasses']);
+ Route::put('/admin/meal-classes/{id}', [AdminController::class, 'updateMealClass']);
+ Route::delete('/admin/meal-classes/{id}', [AdminController::class, 'deleteMealClass']);
+
+Route::get('/admin/meal-types', [AdminController::class, 'indexmealtype']);
+Route::put('/admin/meal-types/{id}', [AdminController::class, 'updatemealtype']);
+Route::delete('/admin/meal-types/{id}', [AdminController::class, 'destroymealtype']);
+
+Route::get('/admin/meals', [AdminController::class, 'indexmeal']);
+Route::put('/admin/meals/{id}', [AdminController::class, 'updatemeal']);
+Route::delete('/admin/meals/{id}', [AdminController::class, 'destroymeal']);
 // url : http://127.0.0.1:8000/api/admin/users
 
 //Aseel routes ends
@@ -53,7 +68,11 @@ Route::get('/user', [UserDashboardController::class, 'getUserData']);
 //Fajer routes ends
 
 //Tala routes start
+use App\Http\Controllers\AuthController;
 
+
+Route::post('/register', [AuthController::class, 'register']);
+Route::post('/login', [AuthController::class, 'login']);
 //Tala routes ends
 
 //Dania routes start
