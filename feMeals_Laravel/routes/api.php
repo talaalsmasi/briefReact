@@ -18,6 +18,8 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
+use App\Http\Controllers\FoodMenuController;
+
 
 
 
@@ -26,6 +28,10 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 use App\Http\Controllers\AdminController;
 
 Route::get('/admin/users', [AdminController::class, 'index']);
+Route::get('/admin/dashboard', [AdminController::class, 'dashboard']);
+Route::get('/admin/subscriptions', [AdminController::class, 'getSubscriptions']);
+Route::post('/admin/subscriptions/{id}/status', [AdminController::class, 'updateSubscriptionStatus']);
+
 // url : http://127.0.0.1:8000/api/admin/users
 
 //Aseel routes ends
