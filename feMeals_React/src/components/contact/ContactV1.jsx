@@ -1,12 +1,15 @@
-import React from 'react';
-import ReactWOW from 'react-wow';
-import ContactForm from '../form/ContactForm';
+import React from "react";
+import ReactWOW from "react-wow";
+import ContactForm from "../form/ContactForm";
 
 const ContactV1 = () => {
-    return (
-        <>
-        </>
-    );
+  return <>
+  
+  
+  
+  
+  
+  </>;
 };
 
 export default ContactV1;

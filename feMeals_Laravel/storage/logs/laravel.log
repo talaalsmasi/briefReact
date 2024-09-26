@@ -2541,3 +2541,11 @@ Did you mean one of these?
 =======
 >>>>>>> eadd3c58aa98e48f32e6573496154817b875ca81
 "} 
+[2024-09-26 11:35:20] local.ERROR: Cannot use App\Http\Controllers\AdminController as AdminController because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use App\\Http\\Controllers\\AdminController as AdminController because the name is already in use at C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\routes\\api.php:41)
+[stacktrace]
+#0 {main}
+"} 
+[2024-09-26 11:35:20] local.ERROR: Cannot use App\Http\Controllers\AdminController as AdminController because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use App\\Http\\Controllers\\AdminController as AdminController because the name is already in use at C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\routes\\api.php:41)
+[stacktrace]
+#0 {main}
+"} 

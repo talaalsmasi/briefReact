@@ -38,6 +38,7 @@ Route::post('/admin/subscriptions/{id}/status', [AdminController::class, 'update
 //Aseel routes ends
 
 //Amal routes start
+use App\Http\Controllers\FoodMenuController;
 
 Route::get('/food-menu', [FoodMenuController::class, 'getMeals']);
 Route::get('/food-menu-v4', [FoodMenuController::class, 'getFoodMenu']);
@@ -60,5 +61,7 @@ Route::get('/user', [UserDashboardController::class, 'getUserData']);
 //Dania routes ends
 
 //Dalia routes start
+use App\Http\Controllers\MealController;
 
+Route::get('/dalia/meal-classes/{meal_type_id}', [MealController::class, 'getMealClasses']);
 //Dalia routes ends
