@@ -10,7 +10,7 @@ const BusinessHours = () => {
             <div className="opening-hours-area default-padding overflow-hidden">
                 <div className="container">
                     <div className="opening-hour-items">
-                        <h2 className="text-fixed">Restan</h2>
+                        <h6 className="text-fixed">FEMEALs</h6>
                         <div className="shape">
                             <img src={shape4} alt="Image Not Found" />
                         </div>
@@ -25,28 +25,19 @@ const BusinessHours = () => {
                             <div className="col-lg-6">
                                 <ReactWOW animation='fadeInLeft'>
                                     <div className="opening-hours-info animate">
-                                        <h3>Opening Hours</h3>
+                                        <h3>About US</h3>
                                         <p>
-                                            A relaxing and pleasant atmosphere, good jazz, dinner, and cocktails. The Patio Time Bar opens in the center..
+                                            A healthy food website offers expertly curated recipes, meal plans, and nutrition tips to promote balanced eating. Focused on fresh, nutrient-rich ingredients, it empowers users to make informed dietary choices for improved health and wellness, while providing a seamless, user-friendly experience.
                                         </p>
                                         <ul className="opening-hours-table">
-                                            <li>
-                                                <h6>Sunday to Tuesday:</h6> <span>10:00 - 09:00</span>
-                                            </li>
-                                            <li>
-                                                <h6>Wednesday to Thursday:</h6> <span>11:30 - 10:30</span>
-                                            </li>
-                                            <li>
-                                                <h6>Friday & Saturday:</h6> <span>10:30  - 12:00</span>
-                                            </li>
+
                                         </ul>
-                                        <div className="call-to-action">
+                                        <div className="call">
                                             <div className="icon">
-                                                <img src={icon6} alt="Image Not Found" />
+
                                             </div>
                                             <div className="info">
-                                                <p>Call Anytime</p>
-                                                <h4><a href="tel:+964733-378901">+964733-378901</a></h4>
+
                                             </div>
                                         </div>
                                     </div>

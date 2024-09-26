@@ -10,11 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "axios": "^1.7.7",
     "bootstrap": "^5.3.3",
     "gsap": "^3.12.5",
     "imagesloaded": "^5.0.0",
     "isotope-layout": "^3.0.6",
     "react": "^18.3.1",
+    "react-bootstrap": "^2.10.4",
     "react-countup": "^6.5.3",
     "react-datepicker": "^7.3.0",
     "react-dom": "^18.3.1",
@@ -26,6 +28,7 @@
     "react-simple-scroll-up": "^0.2.3",
     "react-toastify": "^10.0.5",
     "react-wow": "^1.0.0",
+    "styled-components": "^6.1.13",
     "swiper": "^11.1.9"
   },
   "devDependencies": {

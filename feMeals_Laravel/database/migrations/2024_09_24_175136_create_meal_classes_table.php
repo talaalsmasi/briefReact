@@ -14,6 +14,11 @@ return new class extends Migration
         Schema::create('meal_classes', function (Blueprint $table) {
             $table->id();
             $table->string('name'); // basic, premium, VIP
+            $table->integer('price');
+            $table->integer('meal_num');
+            $table->string('description');
+            $table->string('image')->default('default.jpg');
+
             $table->foreignId('meal_type_id')->constrained('meal_types')->onDelete('cascade');
             $table->timestamps();
         });
