@@ -11,10 +11,7 @@ const FoodMenuPage = () => {
         <>
             <LayoutV6 breadCrumb="food-menu" title="Food Menu">
                 <FoodMenuV4 />
-                <DeliveryV1 />
-                <FoodMenuV5 />
-                <TestimonialV1 />
-                <ReservationV1 sectionClass="mb-120 mb-xs-60" />
+                
             </LayoutV6>
         </>
     );

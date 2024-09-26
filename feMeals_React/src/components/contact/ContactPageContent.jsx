@@ -7,8 +7,6 @@ const ContactPageContent = () => {
     return (
         <>
             <ContactV1 />
-            <ContactMap />
-            <BusinessHours />
         </>
     );
 };

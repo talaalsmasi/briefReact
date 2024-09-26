@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom"; // Import Link from react-router-dom
 import ContactV2 from "./ContactV2"; // Import ContactV2 component
+import FoodMenuV4 from '@/components/food/FoodMenuV4';
+
 
 const ContactV1 = () => {
   // State for signup data
@@ -139,7 +141,7 @@ const ContactV1 = () => {
                       Sign Up
                     </button>
                     {/* Use Link component to navigate to ContactV2 */}
-                    <Link to="/contactv2">Already have an account? Login</Link>
+                    <Link to="/food-menu">Already have an account? Login</Link>
                   </form>
                 )}
               </div>
@@ -149,6 +151,7 @@ const ContactV1 = () => {
       </div>
     </>
   );
+  
 };
 
 export default ContactV1;

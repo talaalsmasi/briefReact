@@ -2541,3 +2541,239 @@ Did you mean one of these?
 =======
 >>>>>>> eadd3c58aa98e48f32e6573496154817b875ca81
 "} 
+[2024-09-26 11:35:20] local.ERROR: Cannot use App\Http\Controllers\AdminController as AdminController because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use App\\Http\\Controllers\\AdminController as AdminController because the name is already in use at C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\routes\\api.php:41)
+[stacktrace]
+#0 {main}
+"} 
+[2024-09-26 11:35:20] local.ERROR: Cannot use App\Http\Controllers\AdminController as AdminController because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use App\\Http\\Controllers\\AdminController as AdminController because the name is already in use at C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\routes\\api.php:41)
+[stacktrace]
+#0 {main}
+"} 
+[2024-09-26 17:15:12] local.ERROR: Cannot use App\Http\Controllers\FoodMenuController as FoodMenuController because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use App\\Http\\Controllers\\FoodMenuController as FoodMenuController because the name is already in use at C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\routes\\api.php:56)
+[stacktrace]
+#0 {main}
+"} 
+[2024-09-26 17:15:38] local.ERROR: Cannot use App\Http\Controllers\FoodMenuController as FoodMenuController because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use App\\Http\\Controllers\\FoodMenuController as FoodMenuController because the name is already in use at C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\routes\\api.php:56)
+[stacktrace]
+#0 {main}
+"} 
+[2024-09-26 17:15:39] local.ERROR: Cannot use App\Http\Controllers\FoodMenuController as FoodMenuController because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use App\\Http\\Controllers\\FoodMenuController as FoodMenuController because the name is already in use at C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\routes\\api.php:56)
+[stacktrace]
+#0 {main}
+"} 
+[2024-09-26 17:15:39] local.ERROR: Cannot use App\Http\Controllers\FoodMenuController as FoodMenuController because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use App\\Http\\Controllers\\FoodMenuController as FoodMenuController because the name is already in use at C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\routes\\api.php:56)
+[stacktrace]
+#0 {main}
+"} 
+[2024-09-26 17:16:38] local.ERROR: Cannot use App\Http\Controllers\FoodMenuController as FoodMenuController because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use App\\Http\\Controllers\\FoodMenuController as FoodMenuController because the name is already in use at C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\routes\\api.php:56)
+[stacktrace]
+#0 {main}
+"} 
+[2024-09-26 17:16:38] local.ERROR: Cannot use App\Http\Controllers\FoodMenuController as FoodMenuController because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use App\\Http\\Controllers\\FoodMenuController as FoodMenuController because the name is already in use at C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\routes\\api.php:56)
+[stacktrace]
+#0 {main}
+"} 
+[2024-09-26 17:17:38] local.ERROR: Cannot use App\Http\Controllers\FoodMenuController as FoodMenuController because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use App\\Http\\Controllers\\FoodMenuController as FoodMenuController because the name is already in use at C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\routes\\api.php:56)
+[stacktrace]
+#0 {main}
+"} 
+[2024-09-26 17:17:38] local.ERROR: Cannot use App\Http\Controllers\FoodMenuController as FoodMenuController because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use App\\Http\\Controllers\\FoodMenuController as FoodMenuController because the name is already in use at C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\routes\\api.php:56)
+[stacktrace]
+#0 {main}
+"} 
+[2024-09-26 17:18:38] local.ERROR: Cannot use App\Http\Controllers\FoodMenuController as FoodMenuController because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use App\\Http\\Controllers\\FoodMenuController as FoodMenuController because the name is already in use at C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\routes\\api.php:56)
+[stacktrace]
+#0 {main}
+"} 
+[2024-09-26 17:18:38] local.ERROR: Cannot use App\Http\Controllers\FoodMenuController as FoodMenuController because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use App\\Http\\Controllers\\FoodMenuController as FoodMenuController because the name is already in use at C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\routes\\api.php:56)
+[stacktrace]
+#0 {main}
+"} 
+[2024-09-26 17:19:38] local.ERROR: Cannot use App\Http\Controllers\FoodMenuController as FoodMenuController because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use App\\Http\\Controllers\\FoodMenuController as FoodMenuController because the name is already in use at C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\routes\\api.php:56)
+[stacktrace]
+#0 {main}
+"} 
+[2024-09-26 17:19:38] local.ERROR: Cannot use App\Http\Controllers\FoodMenuController as FoodMenuController because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use App\\Http\\Controllers\\FoodMenuController as FoodMenuController because the name is already in use at C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\routes\\api.php:56)
+[stacktrace]
+#0 {main}
+"} 
+[2024-09-26 17:20:38] local.ERROR: Cannot use App\Http\Controllers\FoodMenuController as FoodMenuController because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use App\\Http\\Controllers\\FoodMenuController as FoodMenuController because the name is already in use at C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\routes\\api.php:56)
+[stacktrace]
+#0 {main}
+"} 
+[2024-09-26 17:20:38] local.ERROR: Cannot use App\Http\Controllers\FoodMenuController as FoodMenuController because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use App\\Http\\Controllers\\FoodMenuController as FoodMenuController because the name is already in use at C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\routes\\api.php:56)
+[stacktrace]
+#0 {main}
+"} 
+[2024-09-26 17:21:38] local.ERROR: Cannot use App\Http\Controllers\FoodMenuController as FoodMenuController because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use App\\Http\\Controllers\\FoodMenuController as FoodMenuController because the name is already in use at C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\routes\\api.php:56)
+[stacktrace]
+#0 {main}
+"} 
+[2024-09-26 17:21:38] local.ERROR: Cannot use App\Http\Controllers\FoodMenuController as FoodMenuController because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use App\\Http\\Controllers\\FoodMenuController as FoodMenuController because the name is already in use at C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\routes\\api.php:56)
+[stacktrace]
+#0 {main}
+"} 
+[2024-09-26 17:21:44] local.ERROR: Cannot use App\Http\Controllers\FoodMenuController as FoodMenuController because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use App\\Http\\Controllers\\FoodMenuController as FoodMenuController because the name is already in use at C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\routes\\api.php:56)
+[stacktrace]
+#0 {main}
+"} 
+[2024-09-26 17:21:44] local.ERROR: Cannot use App\Http\Controllers\FoodMenuController as FoodMenuController because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use App\\Http\\Controllers\\FoodMenuController as FoodMenuController because the name is already in use at C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\routes\\api.php:56)
+[stacktrace]
+#0 {main}
+"} 
+[2024-09-26 17:21:55] local.ERROR: Cannot use App\Http\Controllers\FoodMenuController as FoodMenuController because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use App\\Http\\Controllers\\FoodMenuController as FoodMenuController because the name is already in use at C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\routes\\api.php:56)
+[stacktrace]
+#0 {main}
+"} 
+[2024-09-26 17:21:56] local.ERROR: Cannot use App\Http\Controllers\FoodMenuController as FoodMenuController because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use App\\Http\\Controllers\\FoodMenuController as FoodMenuController because the name is already in use at C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\routes\\api.php:56)
+[stacktrace]
+#0 {main}
+"} 
+[2024-09-26 17:21:58] local.ERROR: Cannot use App\Http\Controllers\FoodMenuController as FoodMenuController because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use App\\Http\\Controllers\\FoodMenuController as FoodMenuController because the name is already in use at C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\routes\\api.php:56)
+[stacktrace]
+#0 {main}
+"} 
+[2024-09-26 17:21:59] local.ERROR: Cannot use App\Http\Controllers\FoodMenuController as FoodMenuController because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use App\\Http\\Controllers\\FoodMenuController as FoodMenuController because the name is already in use at C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\routes\\api.php:56)
+[stacktrace]
+#0 {main}
+"} 
+[2024-09-26 17:22:02] local.ERROR: Cannot use App\Http\Controllers\FoodMenuController as FoodMenuController because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use App\\Http\\Controllers\\FoodMenuController as FoodMenuController because the name is already in use at C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\routes\\api.php:56)
+[stacktrace]
+#0 {main}
+"} 
+[2024-09-26 17:22:32] local.ERROR: Cannot use App\Http\Controllers\FoodMenuController as FoodMenuController because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use App\\Http\\Controllers\\FoodMenuController as FoodMenuController because the name is already in use at C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\routes\\api.php:56)
+[stacktrace]
+#0 {main}
+"} 
+[2024-09-26 17:22:34] local.ERROR: Cannot use App\Http\Controllers\FoodMenuController as FoodMenuController because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use App\\Http\\Controllers\\FoodMenuController as FoodMenuController because the name is already in use at C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\routes\\api.php:56)
+[stacktrace]
+#0 {main}
+"} 
+[2024-09-26 17:22:38] local.ERROR: Cannot use App\Http\Controllers\FoodMenuController as FoodMenuController because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use App\\Http\\Controllers\\FoodMenuController as FoodMenuController because the name is already in use at C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\routes\\api.php:56)
+[stacktrace]
+#0 {main}
+"} 
+[2024-09-26 17:22:38] local.ERROR: Cannot use App\Http\Controllers\FoodMenuController as FoodMenuController because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use App\\Http\\Controllers\\FoodMenuController as FoodMenuController because the name is already in use at C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\routes\\api.php:56)
+[stacktrace]
+#0 {main}
+"} 
+[2024-09-26 17:22:43] local.ERROR: Cannot use App\Http\Controllers\FoodMenuController as FoodMenuController because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use App\\Http\\Controllers\\FoodMenuController as FoodMenuController because the name is already in use at C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\routes\\api.php:56)
+[stacktrace]
+#0 {main}
+"} 
+[2024-09-26 17:22:49] local.ERROR: Cannot use App\Http\Controllers\FoodMenuController as FoodMenuController because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use App\\Http\\Controllers\\FoodMenuController as FoodMenuController because the name is already in use at C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\routes\\api.php:56)
+[stacktrace]
+#0 {main}
+"} 
+[2024-09-26 17:22:51] local.ERROR: Cannot use App\Http\Controllers\FoodMenuController as FoodMenuController because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use App\\Http\\Controllers\\FoodMenuController as FoodMenuController because the name is already in use at C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\routes\\api.php:56)
+[stacktrace]
+#0 {main}
+"} 
+[2024-09-26 17:22:59] local.ERROR: Cannot use App\Http\Controllers\FoodMenuController as FoodMenuController because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use App\\Http\\Controllers\\FoodMenuController as FoodMenuController because the name is already in use at C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\routes\\api.php:56)
+[stacktrace]
+#0 {main}
+"} 
+[2024-09-26 17:22:59] local.ERROR: Cannot use App\Http\Controllers\FoodMenuController as FoodMenuController because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use App\\Http\\Controllers\\FoodMenuController as FoodMenuController because the name is already in use at C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\routes\\api.php:56)
+[stacktrace]
+#0 {main}
+"} 
+[2024-09-26 17:23:38] local.ERROR: Cannot use App\Http\Controllers\FoodMenuController as FoodMenuController because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use App\\Http\\Controllers\\FoodMenuController as FoodMenuController because the name is already in use at C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\routes\\api.php:56)
+[stacktrace]
+#0 {main}
+"} 
+[2024-09-26 17:23:38] local.ERROR: Cannot use App\Http\Controllers\FoodMenuController as FoodMenuController because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use App\\Http\\Controllers\\FoodMenuController as FoodMenuController because the name is already in use at C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\routes\\api.php:56)
+[stacktrace]
+#0 {main}
+"} 
+[2024-09-26 17:23:41] local.ERROR: Cannot use App\Http\Controllers\FoodMenuController as FoodMenuController because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use App\\Http\\Controllers\\FoodMenuController as FoodMenuController because the name is already in use at C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\routes\\api.php:56)
+[stacktrace]
+#0 {main}
+"} 
+[2024-09-26 17:23:43] local.ERROR: Cannot use App\Http\Controllers\FoodMenuController as FoodMenuController because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use App\\Http\\Controllers\\FoodMenuController as FoodMenuController because the name is already in use at C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\routes\\api.php:56)
+[stacktrace]
+#0 {main}
+"} 
+[2024-09-26 17:23:43] local.ERROR: Cannot use App\Http\Controllers\FoodMenuController as FoodMenuController because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use App\\Http\\Controllers\\FoodMenuController as FoodMenuController because the name is already in use at C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\routes\\api.php:56)
+[stacktrace]
+#0 {main}
+"} 
+[2024-09-26 17:23:44] local.ERROR: Cannot use App\Http\Controllers\FoodMenuController as FoodMenuController because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use App\\Http\\Controllers\\FoodMenuController as FoodMenuController because the name is already in use at C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\routes\\api.php:56)
+[stacktrace]
+#0 {main}
+"} 
+[2024-09-26 17:23:45] local.ERROR: Cannot use App\Http\Controllers\FoodMenuController as FoodMenuController because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use App\\Http\\Controllers\\FoodMenuController as FoodMenuController because the name is already in use at C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\routes\\api.php:56)
+[stacktrace]
+#0 {main}
+"} 
+[2024-09-26 17:23:45] local.ERROR: Cannot use App\Http\Controllers\FoodMenuController as FoodMenuController because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use App\\Http\\Controllers\\FoodMenuController as FoodMenuController because the name is already in use at C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\routes\\api.php:56)
+[stacktrace]
+#0 {main}
+"} 
+[2024-09-26 17:24:02] local.ERROR: Cannot use App\Http\Controllers\FoodMenuController as FoodMenuController because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use App\\Http\\Controllers\\FoodMenuController as FoodMenuController because the name is already in use at C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\routes\\api.php:56)
+[stacktrace]
+#0 {main}
+"} 
+[2024-09-26 17:24:38] local.ERROR: Cannot use App\Http\Controllers\FoodMenuController as FoodMenuController because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use App\\Http\\Controllers\\FoodMenuController as FoodMenuController because the name is already in use at C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\routes\\api.php:56)
+[stacktrace]
+#0 {main}
+"} 
+[2024-09-26 17:24:38] local.ERROR: Cannot use App\Http\Controllers\FoodMenuController as FoodMenuController because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use App\\Http\\Controllers\\FoodMenuController as FoodMenuController because the name is already in use at C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\routes\\api.php:56)
+[stacktrace]
+#0 {main}
+"} 
+[2024-09-26 17:24:42] local.ERROR: Cannot use App\Http\Controllers\FoodMenuController as FoodMenuController because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use App\\Http\\Controllers\\FoodMenuController as FoodMenuController because the name is already in use at C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\routes\\api.php:56)
+[stacktrace]
+#0 {main}
+"} 
+[2024-09-26 17:25:38] local.ERROR: Cannot use App\Http\Controllers\FoodMenuController as FoodMenuController because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use App\\Http\\Controllers\\FoodMenuController as FoodMenuController because the name is already in use at C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\routes\\api.php:56)
+[stacktrace]
+#0 {main}
+"} 
+[2024-09-26 17:25:38] local.ERROR: Cannot use App\Http\Controllers\FoodMenuController as FoodMenuController because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use App\\Http\\Controllers\\FoodMenuController as FoodMenuController because the name is already in use at C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\routes\\api.php:56)
+[stacktrace]
+#0 {main}
+"} 
+[2024-09-26 17:25:38] local.ERROR: Cannot use App\Http\Controllers\FoodMenuController as FoodMenuController because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use App\\Http\\Controllers\\FoodMenuController as FoodMenuController because the name is already in use at C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\routes\\api.php:56)
+[stacktrace]
+#0 {main}
+"} 
+[2024-09-26 17:26:38] local.ERROR: Cannot use App\Http\Controllers\FoodMenuController as FoodMenuController because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use App\\Http\\Controllers\\FoodMenuController as FoodMenuController because the name is already in use at C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\routes\\api.php:56)
+[stacktrace]
+#0 {main}
+"} 
+[2024-09-26 17:26:38] local.ERROR: Cannot use App\Http\Controllers\FoodMenuController as FoodMenuController because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use App\\Http\\Controllers\\FoodMenuController as FoodMenuController because the name is already in use at C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\routes\\api.php:56)
+[stacktrace]
+#0 {main}
+"} 
+[2024-09-26 17:27:38] local.ERROR: Cannot use App\Http\Controllers\FoodMenuController as FoodMenuController because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use App\\Http\\Controllers\\FoodMenuController as FoodMenuController because the name is already in use at C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\routes\\api.php:56)
+[stacktrace]
+#0 {main}
+"} 
+[2024-09-26 17:27:38] local.ERROR: Cannot use App\Http\Controllers\FoodMenuController as FoodMenuController because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use App\\Http\\Controllers\\FoodMenuController as FoodMenuController because the name is already in use at C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\routes\\api.php:56)
+[stacktrace]
+#0 {main}
+"} 
+[2024-09-26 17:28:38] local.ERROR: Cannot use App\Http\Controllers\FoodMenuController as FoodMenuController because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use App\\Http\\Controllers\\FoodMenuController as FoodMenuController because the name is already in use at C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\routes\\api.php:56)
+[stacktrace]
+#0 {main}
+"} 
+[2024-09-26 17:28:38] local.ERROR: Cannot use App\Http\Controllers\FoodMenuController as FoodMenuController because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use App\\Http\\Controllers\\FoodMenuController as FoodMenuController because the name is already in use at C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\routes\\api.php:56)
+[stacktrace]
+#0 {main}
+"} 
+[2024-09-26 17:29:13] local.ERROR: Cannot use App\Http\Controllers\FoodMenuController as FoodMenuController because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use App\\Http\\Controllers\\FoodMenuController as FoodMenuController because the name is already in use at C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\routes\\api.php:56)
+[stacktrace]
+#0 {main}
+"} 
+[2024-09-26 17:29:25] local.ERROR: Cannot use App\Http\Controllers\FoodMenuController as FoodMenuController because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use App\\Http\\Controllers\\FoodMenuController as FoodMenuController because the name is already in use at C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\routes\\api.php:56)
+[stacktrace]
+#0 {main}
+"} 
+[2024-09-26 17:29:38] local.ERROR: Cannot use App\Http\Controllers\FoodMenuController as FoodMenuController because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use App\\Http\\Controllers\\FoodMenuController as FoodMenuController because the name is already in use at C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\routes\\api.php:56)
+[stacktrace]
+#0 {main}
+"} 
+[2024-09-26 17:29:38] local.ERROR: Cannot use App\Http\Controllers\FoodMenuController as FoodMenuController because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use App\\Http\\Controllers\\FoodMenuController as FoodMenuController because the name is already in use at C:\\Users\\Orange\\Desktop\\briefReact\\feMeals_Laravel\\routes\\api.php:56)
+[stacktrace]
+#0 {main}
+"} 
