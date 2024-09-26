@@ -53,6 +53,7 @@ const Subscription = () => {
                 <th>Start Date</th>
                 <th>End Date</th>
                 <th>Status</th>
+                <th>Approved by</th>
                 <th>Actions</th>
               </tr>
             </thead>
@@ -67,6 +68,7 @@ const Subscription = () => {
                   <td>{subscription.user?.name || "N/A"}</td>
                   <td>{subscription.start_date}</td>
                   <td>{subscription.end_date}</td>
+
                   <td>
                     <span
                       className={`badge bg-label-${
@@ -78,6 +80,8 @@ const Subscription = () => {
                       {subscription.status}
                     </span>
                   </td>
+                  <td>{subscription.approved_by}</td>
+
                   <td>
                     <button
                       className="btn btn-primary me-2"

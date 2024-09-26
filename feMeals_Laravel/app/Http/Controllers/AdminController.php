@@ -50,8 +50,12 @@ class AdminController extends Controller
 
     public function updateSubscriptionStatus($id, Request $request)
     {
+        $user = User::find(2);
+
         $subscription = Subscription::find($id);
         $subscription->status = $request->status;
+        $subscription->approved_by = $user->name;
+
         $subscription->save();
 
         return response()->json(['message' => 'Subscription status updated successfully']);
