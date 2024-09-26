@@ -67,7 +67,11 @@ Route::get('/user', [UserDashboardController::class, 'getUserData']);
 //Fajer routes ends
 
 //Tala routes start
+use App\Http\Controllers\AuthController;
 
+
+Route::post('/register', [AuthController::class, 'register']);
+Route::post('/login', [AuthController::class, 'login']);
 //Tala routes ends
 
 //Dania routes start
