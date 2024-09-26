@@ -6,7 +6,7 @@ const BlogV1 = () => {
     const comingSoonItems = [
         {
             id: 1,
-            thumb: '5.jpg', // Image name for "New Diet"
+            thumb: 'diet0.png', // Image name for "New Diet"
             date: 'Coming Soon',
             title: 'New Diet Plan',
             description: 'Stay tuned for our upcoming diet plan that will help you achieve your health goals.',
@@ -14,7 +14,7 @@ const BlogV1 = () => {
         },
         {
             id: 2,
-            thumb: '4.jpg', // Image name for "New Meals"
+            thumb: 'meaal.png', // Image name for "New Meals"
             date: 'Coming Soon',
             title: 'New Meals',
             description: 'Enjoy a variety of new and innovative meals that cater to all tastes.',

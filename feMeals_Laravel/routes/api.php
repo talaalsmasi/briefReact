@@ -1,4 +1,5 @@
 <?php
+use App\Http\Controllers\UserDashboardController;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -53,7 +54,6 @@ Route::delete('/admin/meals/{id}', [AdminController::class, 'destroymeal']);
 
 //Amal routes start
 
-use App\Http\Controllers\FoodMenuController;
 Route::get('/food-menu', [FoodMenuController::class, 'getMeals']);
 Route::get('/food-menu-v4', [FoodMenuController::class, 'getFoodMenu']);
 
@@ -62,6 +62,7 @@ Route::get('/food-menu-v4', [FoodMenuController::class, 'getFoodMenu']);
 //Amal routes ends
 
 //Fajer routes start
+Route::get('/user', [UserDashboardController::class, 'getUserData']);
 
 //Fajer routes ends
 
