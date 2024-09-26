@@ -31,7 +31,7 @@ const BannerV4 = () => {
                                     </svg>
                                     <PopupVideo
                                         videoClass="popup-youtube"
-                                        videoId="NbxZD-dkA2E"
+                                        videoId="jrbF9nCZ-wY"
                                     >
                                         <i className="fas fa-arrow-right"></i>
                                     </PopupVideo>
